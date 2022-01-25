@@ -1,9 +1,7 @@
-# Lekcja 4
-## Zadanie 1 - pro
-Stwórz funkcję `createButton` tworzącą element `<button>` o identyfikatorze `"super-button"`, dowolnej nazwie w środku i dodaj go do elementu `<body>`. Funkcja powinna także zwracać tego buttona. Następnie stwórz funkcję `openAlert`, która będzie uruchamiała wbudowaną funkcję `window.alert` z tekstem `"super"`. Funkcja `openAlert` powinna zostać wywołana w momencie kliknięcia na utworzony przycisk `"super-button"`.
+# 9.2
 
-Przykładowy input:
-Brak
+Twoim zadaniem jest zaimportowanie pliku index.js do index.html (poprzez tag `<script>` z odpowiednim atrybutem, który zmieni go w moduł ES6).
 
-Przykładowy output:
-Element `<button id="super-button">` wraz z pozostałymi założeniami
+W pliku sillyText.js stwórz i wyeksportuj funkcję `returnSillyText` (używając eksportu `default`), która zwracać będzie string o treści `"I'm a silly string"`. Zaimportuj ją do index.js i uruchom w console.log’u, w ten sposób:
+
+`console.log(returnSillyText());`
