@@ -1,4 +1,6 @@
-# 9.2
+# Task performed during Front-End Developer Bootcamp 
+
+## 9.2
 
 Twoim zadaniem jest zaimportowanie pliku index.js do index.html (poprzez tag `<script>` z odpowiednim atrybutem, który zmieni go w moduł ES6).
 
